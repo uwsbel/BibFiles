@@ -1175,6 +1175,78 @@ howpublished = {\url{https://www.us-ignite.org/}}
   author={The University of Iowa}
 }
 
+% - 2012 - library is still somewhat maintained - open source
+% - Focused on simulating swarms of robots
+% - Allows for using different physics engines for different portions of the simulation space
+% - Most benchmark tests use a 2D engine, but they do have support for ODE and do some tests with it running 3D simulations
+% - Runs much faster than real-time for up to 10^4 or 10^5 robots
+% - Uses threads/OpenMP to achieve performance gains
+% - State (without evidence?) that Webots, USARSim and Gazebo are slower than real time for more than a few dozen robots
+@article{pinciroli2012argos,
+  title={ARGoS: a modular, parallel, multi-engine simulator for multi-robot systems},
+  author={Pinciroli, Carlo and Trianni, Vito and O’Grady, Rehan and Pini, Giovanni and Brutschy, Arne and Brambilla, Manuele and Mathews, Nithin and Ferrante, Eliseo and Di Caro, Gianni and Ducatelle, Frederick and others},
+  journal={Swarm intelligence},
+  volume={6},
+  number={4},
+  pages={271--295},
+  year={2012},
+  publisher={Springer}
+}
+
+% - 2017 - Use Intel Vtune Amplifier
+% - Determine simulation time increases quadratically in a swarm scenario, and linearly in a "high complexity" environment
+% - Also uses RTF the other way than we do
+% - Analyze a swarm scenario
+% - Talk a lot about specific function calls which doesn't seem relevant or helpful
+% - ParaGazebo - which uses an "island thread" model - disjoint regions of space are simulated on different threads - to improve parallelism. High overhead in spawning these threads
+% - Doesn't draw any strong conclusions from their case study, really just state what they found with no investigation of the "why" or "so what"
+@inproceedings{yang2017case,
+  title={A case study on the performance of Gazebo with multi-core CPUs},
+  author={Yang, Hai and Wang, Xuefei},
+  booktitle={International Conference on Intelligent Robotics and Applications},
+  pages={671--682},
+  year={2017},
+  organization={Springer}
+}
+
+% - 2017 - comparison between MORSE and Gazebo
+% - Defines Real-time factor the other way around
+% - MORSE and Gazebo reach 5x real-time around 6 robots … running on a Thinkpad laptop
+% - They talk about some weird GPU/CPU trade-off but don't explain how the two platforms use GPU in their computations, is is just for rendering?
+@inproceedings{noori20173d,
+  title={On 3D simulators for multi-robot systems in ROS: MORSE or Gazebo?},
+  author={Noori, Farzan M and Portugal, David and Rocha, Rui P and Couceiro, Micael S},
+  booktitle={2017 IEEE International Symposium on Safety, Security and Rescue Robotics (SSRR)},
+  pages={19--24},
+  year={2017},
+  organization={IEEE}
+}
+
+% - 2019, still in pre-print. Open-source
+% - Library for soft-body robotics that uses CUDA
+% - Spring-mass damper system for the forces and displacements of the bodies
+% - Capable of simulating 100s of "robots" in parallel, doesn't seem to have much more than soft-body
+% - Memory management system on the GPU allows for adding and removing supports as the simulation is running (topology optimization)
+% - Has a decent amount of detail on the internals of the physics system
+@article{austin2019titan,
+  title={Titan: A Parallel Asynchronous Library for Multi-Agent and Soft-Body Robotics using NVIDIA CUDA},
+  author={Austin, Jacob and Corrales-Fatou, Rafael and Wyetzner, Sofia and Lipson, Hod},
+  journal={arXiv preprint arXiv:1911.10274},
+  year={2019}
+}
+
+% 
+@article{vaughan2008massively,
+  title={Massively multi-robot simulation in stage},
+  author={Vaughan, Richard},
+  journal={Swarm intelligence},
+  volume={2},
+  number={2-4},
+  pages={189--208},
+  year={2008},
+  publisher={Springer}
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @inproceedings{ChronoMPC_GVSETS,
