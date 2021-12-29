@@ -1792,3 +1792,37 @@ abstract = {This paper addresses the design of rigid wheels for planetary rovers
   year={2017}
 }
 
+@article{RADEKE20106435,
+title = {Large-scale powder mixer simulations using massively parallel GPUarchitectures},
+journal = {Chemical Engineering Science},
+volume = {65},
+number = {24},
+pages = {6435-6442},
+year = {2010},
+issn = {0009-2509},
+doi = {https://doi.org/10.1016/j.ces.2010.09.035},
+url = {https://www.sciencedirect.com/science/article/pii/S0009250910005737},
+author = {Charles A. Radeke and Benjamin J. Glasser and Johannes G. Khinast},
+keywords = {DEM, GPU, Mixing, Parallel processing, Pharmaceuticals, Powder blending},
+abstract = {Granular flows are extremely important for the pharmaceutical and chemical industry, as well as for other scientific areas. Thus, the understanding of the impact of particle size and related effects on the mean, as well as on the fluctuating flow field, in granular flows is critical for design and optimization of powder processing operations. We use a specialized simulation tool written in C and CUDA (Compute Unified Device Architecture), a massive parallelization technique which runs on the Graphics Processing Unit (GPU). We focus on both, a new implementation approach using CUDA/GPU, as well as on the flow fields and mixing properties obtained in the million-particlerange. We show that using CUDA and GPUs, we are able to simulate granular flows involving several millions of particles significantly faster than using currently available software. Our simulation results are intended as a basis for enhanced DEM simulations, where fluid spraying, wetting and fluid spreading inside the powder bed is considered.}
+}
+
+
+@Article{luningCG2021,
+AUTHOR = {Fang, Luning and Zhang, Ruochun and Vanden Heuvel, Colin and Serban, Radu and Negrut, Dan},
+TITLE = {Chrono::GPU: An Open-Source Simulation Package for Granular Dynamics Using the Discrete Element Method},
+JOURNAL = {Processes},
+VOLUME = {9},
+YEAR = {2021},
+NUMBER = {10},
+ARTICLE-NUMBER = {1813},
+URL = {https://www.mdpi.com/2227-9717/9/10/1813},
+ISSN = {2227-9717},
+ABSTRACT = {We report on an open-source, publicly available C++ software module called Chrono::GPU, which uses the Discrete Element Method (DEM) to simulate large granular systems on Graphics Processing Unit (GPU) cards. The solver supports the integration of granular material with geometries defined by triangle meshes, as well as co-simulation with the multi-physics simulation engine Chrono. Chrono::GPU adopts a smooth contact formulation and implements various common contact force models, such as the Hertzian model for normal force and the Mindlin friction force model, which takes into account the history of tangential displacement, rolling frictional torques, and cohesion. We report on the code structure and highlight its use of mixed data types for reducing the memory footprint and increasing simulation speed. We discuss several validation tests (wave propagation, rotating drum, direct shear test, crater test) that compare the simulation results against experimental data or results reported in the literature. In another benchmark test, we demonstrate linear scaling with a problem size up to the GPU memory capacity; specifically, for systems with 130 million DEM elements. The simulation infrastructure is demonstrated in conjunction with simulations of the NASA Curiosity rover, which is currently active on Mars.},
+DOI = {10.3390/pr9101813}
+}
+
+
+
+
+
