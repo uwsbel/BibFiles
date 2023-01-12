@@ -1671,6 +1671,20 @@ keywords = {Angle of repose, Geotechnical, Granular, Measurements},
   publisher={Elsevier}
 }
 
+@article{LAI2020112873,
+title = {Fourier series-based discrete element method for computational mechanics of irregular-shaped particles},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {362},
+pages = {112873},
+year = {2020},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2020.112873},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782520300554},
+author = {Zhengshou Lai and Qiushi Chen and Linchong Huang},
+keywords = {Discrete element method, Irregular shapes, Fourier series, Contact detection and resolution, Granular materials},
+abstract = {Many natural and engineered granular materials consist mainly of irregular-shaped non-spherical particles. In this work, a novel Fourier series-based Discrete Element Method (FS-DEM) is developed for the computational mechanics of irregular-shaped particles. In FS-DEM, Fourier series-based particle geometric description and coordinate representation are introduced, where particle shapes are implicitly determined by FS coefficients, which remain constant and are independent of particle positions or kinematics. Using the FS-based particle representation, contact detection and resolution algorithms are then developed to identify contacts and resolve contact geometric features. The FS-DEM method is completed with recourse to conventional contact behavior, laws of motion, and movement integration. The accuracy and computational efficiency of the FS-DEM framework are evaluated via three numerical examples and compared with the Overlapping Discrete Element Cluster-based DEM method. Results demonstrate the robust and superior performance of the FS-DEM method and its potential for efficient computational modeling of irregular-shaped particle systems.}
+}
+
 @inproceedings{kashizadeh2015numerical,
   title={A numerical approach for modelling the ploughing process in sands},
   author={Kashizadeh, E and Hambleton, JP and Stanier, SA},
@@ -1724,6 +1738,20 @@ doi = {https://doi.org/10.1016/j.enganabound.2019.04.013},
 url = {https://www.sciencedirect.com/science/article/pii/S0955799719301493},
 author = {Changhua Xie and Huaqing Ma and Yongzhi Zhao},
 keywords = {Rolling friction, DEM, Spherical particle, Non-spherical particle, Super-ellipsoids}
+}
+
+@article{LIU2020190,
+title = {Multi-super-ellipsoid model for non-spherical particles in DEM simulation},
+journal = {Powder Technology},
+volume = {361},
+pages = {190-202},
+year = {2020},
+issn = {0032-5910},
+doi = {https://doi.org/10.1016/j.powtec.2019.09.042},
+url = {https://www.sciencedirect.com/science/article/pii/S0032591019307697},
+author = {Zihan Liu and Yongzhi Zhao},
+keywords = {DEM, Multi-super-ellipsoid, Non-spherical, Packing, Granular flow, Super-ellipsoid},
+abstract = {The discrete element method (DEM) is extensively used in the investigation of granular systems and the particle shape has a great influence on the dynamics behaviors of granular material. To describe some kinds of non-spherical particles accurately, a multi-super-ellipsoid model, somewhat similar to the multi-sphere model, is proposed in this paper. With this model, non-spherical particles are modeled by connecting a certain number of super-ellipsoids, and the component super-ellipsoids can overlap with each other. Some non-spherical particles, such as tablets and capsules, can be described accurately by the multi-super-ellipsoid model. To verify the accuracy of the multi-super-ellipsoid model, four kinds of non-spherical particles including three kinds of tablets and one kind of capsule, are adopted in this research. The packing of four kinds of non-spherical particles in a cylinder container and the flow of three kinds of tablets in a horizontal rotating drum are done by both numerical simulation and experiment, and the simulation results are compared with the corresponding experiments. The results show that the simulation can predict the basic characteristics of such kinds of non-spherical particles accurately, including fill heights and the dynamic angles of repose, which show that the accuracy of the multi-super-ellipsoid model is quite high. The computational efficiency of the new model is also tested, and the results indicate that the computational efficiency depends on the particle shape and the number of sub-particles in the composite particle.}
 }
 
 @article{Santos2020361,
@@ -1853,6 +1881,13 @@ year              = {2021},
 howpublished      = {\url{https://github.com/ElsevierSoftwareX/SOFTX-D-21-00045}}
 }
 
+@misc{NVH100Perf,
+author = {Andersch, Michael and Palmer, Greg and Krashinsky, Ronny and Stam, Nick and Mehta, Vishal and Brito, Gonzalo and Ramaswamy, Sridhar},
+title = {{NVIDIA} {Hopper} Architecture In-Depth},
+year              = {2022},
+howpublished      = {\url{https://developer.nvidia.com/blog/nvidia-hopper-architecture-in-depth/}}
+}
+
 @inproceedings{Fonte2015DEMCFDC, 
   title={{DEM--CFD} COUPLING : MATHEMATICAL MODELLING AND CASE STUDIES USING {Rocky-DEM\textregistered} AND {ANSYS Fluent\textregistered}},
   author={Clarissa Bergman Fonte and Joao Americo Aguirre Oliveira and Lucilla Almeida},
@@ -1956,4 +1991,12 @@ doi = {https://doi.org/10.1016/j.powtec.2018.03.064},
 url = {https://www.sciencedirect.com/science/article/pii/S0032591018302572},
 author = {Haili Zhou and Zhanqi Hu and Jigang Chen and Xuan Lv and Nan Xie},
 keywords = {Discrete element method, Parameter calibration, Optimal Latin hypercube sampling, Radial basis function neural network, Optimization, Irregular particle},
+}
+
+@misc{RuochunDEMERepo,
+author = {Zhang, Ruochun and Vanden Heuvel, Colin and Negrut, Dan},
+title = {{DEM-Engine}, a multi-GPU {DEM} solver with complex geometry support},
+note              = {Simulation-Based Engineering Laboratory, University of Wisconsin-Madison},
+year              = {2022},
+howpublished      = {\url{https://github.com/projectchrono/DEM-Engine}}
 }
