@@ -8,7 +8,8 @@
     who does not have access to our SVN and you don't want to send them 
     all the *.bib files in the BibResources folder just so that they can
     compile your latex source.
-    Created by Milad Rakhsha
+    Created by Milad Rakhsha.
+    Contributors: Dan Negrut.
 """
 import sys
 import os
@@ -30,14 +31,13 @@ def parse_Tex(inputFile):
     buffer = subprocess.check_output(str(cmd), shell=True, stdin=subprocess.PIPE,
                                      universal_newlines=True,
                                      )
-    text = buffer.decode('utf-8')
-    out = re.sub(r',', r'\n', text)
+    out = re.sub(r',', r'\n', buffer)
     citations = []
     for l in out.split("\n"):
         if (l not in citations and l != ""):
             citations.append(l)
 
-    print 'citations in your tex files:', citations
+    print('citations in your tex files:', citations)
     return citations
 
 
@@ -66,24 +66,24 @@ def prepare_entry(bib_DIR, output_name):
                 i = i+1
             except Exception as exception:
                 # print text
-                print "\nPROBLEM with the %s in the %s" % (en, source_file)
-        except Exception as subprocess.CalledProcessError:
-            print "%s was not found in the library" % en
+                print("\nPROBLEM with the %s in the %s" % (en, source_file))
+        except Exception as exception:
+            print("Reference %s was not found in the bib source[s] provided" % en)
 
     file.close()
 
 
-assert len(sys.argv) >= 3, '\n\nExpected at least two command line arguments.\n'\
-    'Run with python CreateBib.py {SOURCE.tex} {PATH to BibResources folder} {output.bib}'
+assert len(sys.argv) >= 3, '\n\nUser expected to provide at least two command line arguments.\n'\
+    'Run with >> python3 compileBibRefs.py {SOURCE.tex} {PATH to BibResources folder} {output.bib}'
 texFile = str(sys.argv[1])
-print '\n\nProcessing the following tex file for all the citations : %s' % texFile
+print('\n\nProcessing the following tex file for all the citations : %s' % texFile)
 citations = parse_Tex(texFile)
-print 'found %d distincdistinct citations...' % len(citations)
+print('found %d distincdistinct citations...' % len(citations))
 bib_folder = str(sys.argv[2])
 if(len(sys.argv) > 3):
     output_bib = str(sys.argv[3])
 else:
     output_bib = "refs.bib"
-print 'Greping from the source in  %s' % bib_folder
+print('Greping from the source in  %s' % bib_folder)
 prepare_entry(bib_DIR=bib_folder, output_name=output_bib)
-print 'Please look at the %s that was just created.' % output_bib
+print('References compiled in a new bib file called %s.' % output_bib)
