@@ -63,6 +63,13 @@
 	year = {2022},
 }
 
+@misc{NADS1Website,
+	author = {Driving Safety Research Institute},
+	title = {NADS-1 Simulator},
+	howpublished = {Driving Safety Research Institute, \url{https://dsri.uiowa.edu/nads-1}},
+	year = {2022},
+}
+
 @misc{RTIAM,
 	author = {Texas Transportation Institute},
 	title = {Driving Simulation Laboratory},
@@ -155,3 +162,73 @@ doi = {10.1007/978-3-642-32460-4}
   publisher={Elsevier}
 }
 
+
+@Article{carlaintersection,
+AUTHOR = {Gutiérrez-Moreno, Rodrigo and Barea, Rafael and López-Guillén, Elena and Araluce, Javier and Bergasa, Luis M.},
+TITLE = {Reinforcement Learning-Based Autonomous Driving at Intersections in CARLA Simulator},
+JOURNAL = {Sensors},
+VOLUME = {22},
+YEAR = {2022},
+NUMBER = {21},
+ARTICLE-NUMBER = {8373},
+URL = {https://www.mdpi.com/1424-8220/22/21/8373},
+PubMedID = {36366072},
+ISSN = {1424-8220},
+ABSTRACT = {Intersections are considered one of the most complex scenarios in a self-driving framework due to the uncertainty in the behaviors of surrounding vehicles and the different types of scenarios that can be found. To deal with this problem, we provide a Deep Reinforcement Learning approach for intersection handling, which is combined with Curriculum Learning to improve the training process. The state space is defined by two vectors, containing adversaries and ego vehicle information. We define a features extractor module and an actor&ndash;critic approach combined with Curriculum Learning techniques, adding complexity to the environment by increasing the number of vehicles. In order to address a complete autonomous driving system, a hybrid architecture is proposed. The operative level generates the driving commands, the strategy level defines the trajectory and the tactical level executes the high-level decisions. This high-level decision system is the main goal of this research. To address realistic experiments, we set up three scenarios: intersections with traffic lights, intersections with traffic signs and uncontrolled intersections. The results of this paper show that a Proximal Policy Optimization algorithm can infer ego vehicle-desired behavior for different intersection scenarios based only on the behavior of adversarial vehicles.},
+DOI = {10.3390/s22218373}
+}
+
+@INPROCEEDINGS{carlaADAS,
+  author={Stević, Stevan and Krunić, Momčilo and Dragojević, Marko and Kaprocki, Nives},
+  booktitle={2019 27th Telecommunications Forum (TELFOR)}, 
+  title={Development and Validation of ADAS Perception Application in ROS Environment Integrated with CARLA Simulator}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-4},
+  doi={10.1109/TELFOR48224.2019.8971063}}
+  
+@misc{joancarla,
+	author = {Github},
+	title = {JOAN-Human-in-the-loop Support for Carla},
+	howpublished = {Github, \url{https://github.com/tud-hri/joan}},
+}
+
+@article{Salles_Kaufmann_Reuss_2022, title={Extending the Intelligent Driver Model in SUMO and Verifying the Drive Off Trajectories with Aerial Measurements}, volume={1}, url={https://www.tib-op.org/ojs/index.php/scp/article/view/95}, DOI={10.52825/scp.v1i.95}, abstractNote={&amp;lt;p&amp;gt;Connected and automated driving functions are key components for future vehicles. Due to implementation issues and missing infrastructure, the impact of connected and automated vehicles on the traffic flow can only be evaluated in accurate simulations. Simulation of Urban Mobility (SUMO) provides necessary and appropriate models and tools. SUMO contains many car-following models that replicate automated driving, but cannot realistically imitate human driving behavior. When simulating queued vehicles driving off, existing car-following models are neither able to correctly emulate the acceleration behavior of human drivers nor the resulting vehicle gaps. Thus, we propose a time-discrete 2D Human Driver Model to replicate realistic trajectories. We start by combining previously published extensions of the Intelligent Driver Model (IDM) to one generalized model. Discontinuities due to introduced reaction times, estimation errors and lane changes are conquered with new approaches and equations. Above all, the start-up procedure receives more attention than in existing papers. We also provide a first evaluation of the advanced car-following model using 30 minutes of an aerial measurement. This dataset contains three hours of drone recordings from two signalized intersections in Stuttgart, Germany. The method designed for extracting the vehicle trajectories from the raw video data is outlined. Furthermore, we evaluate the accuracy of the trajectories obtained by the aerial measurement using a specially equipped vehicle.&amp;lt;/p&amp;gt;}, journal={SUMO Conference Proceedings}, author={Salles, Dominik and Kaufmann, Stefan and Reuss, Hans-Christian}, year={2022}, month={Jul.}, pages={1–25} }
+
+@misc{sumo_idm,
+	author = {SUMO},
+	title = {SUMO Documentation},
+	howpublished = {SUMO Documentation, \url{https://sumo.dlr.de/docs/Car-Following-Models/EIDM.html}},
+}
+
+@ARTICLE{OSM_Haklay_2008,
+  author={Haklay, Mordechai and Weber, Patrick},
+  journal={IEEE Pervasive Computing}, 
+  title={OpenStreetMap: User-Generated Street Maps}, 
+  year={2008},
+  volume={7},
+  number={4},
+  pages={12-18},
+  doi={10.1109/MPRV.2008.80}}
+  
+ @INPROCEEDINGS{Setiawan2009_14DOF,
+  author={Setiawan, Joga Dharma and Safarudin, Mochamad and Singh, Amrik},
+  booktitle={International Conference on Instrumentation, Communication, Information Technology, and Biomedical Engineering 2009}, 
+  title={Modeling, simulation and validation of 14 DOF full vehicle model}, 
+  year={2009},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ICICI-BME.2009.5417285}}
+  
+ @article{Norouzi2017_2DOF,
+author = {Norouzi, Armin and Kazemi, Reza and Azadi, Shahram},
+year = {2017},
+month = {10},
+pages = {12-28},
+title = {Vehicle lateral control in the presence of uncertainty for lane change maneuver using adaptive sliding mode control with fuzzy boundary layer},
+volume = {232},
+journal = {Proceedings of the Institution of Mechanical Engineers Part I Journal of Systems and Control Engineering},
+doi = {10.1177/0959651817733222}
+}
