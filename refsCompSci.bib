@@ -1,6 +1,134 @@
 % -----------------------------------
-% MPI
+%AutoDiff
+@article{2018RackDsVsCs,
+  author       = {Christopher Rackauckas and
+                  Yingbo Ma and
+                  Vaibhav Dixit and
+                  Xingjian Guo and
+                  Mike Innes and
+                  Jarrett Revels and
+                  Joakim Nyberg and
+                  Vijay Ivaturi},
+  title        = {A Comparison of Automatic Differentiation and Continuous Sensitivity
+                  Analysis for Derivatives of Differential Equation Solutions},
+  journal      = {CoRR},
+  volume       = {abs/1812.01892},
+  year         = {2018},
+  url          = {http://arxiv.org/abs/1812.01892},
+  eprinttype    = {arXiv},
+  eprint       = {1812.01892},
+}
+@misc{2017Lealcppadcodegen,
+  author = {Leal, J. R.},
+  title = {{CppADCodeGen}},
+  howpublished = {\url{github.com/joaoleal/CppADCodeGen}},
+  year = {2017},
+}
 
+@article{1996GriewankAdolC,
+author = {Griewank, Andreas and Juedes, David and Utke, Jean},
+title = {Algorithm 755: ADOL-C: A Package for the Automatic Differentiation of Algorithms Written in C/C++},
+year = {1996},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {22},
+number = {2},
+issn = {0098-3500},
+url = {https://doi.org/10.1145/229473.229474},
+doi = {10.1145/229473.229474},
+journal = {ACM Trans. Math. Softw.},
+month = {jun},
+pages = {131–167},
+keywords = {reverse mode, gradients, Hessians, chain rule, overloading, forward mode, automatic differentiation, Taylor coefficients}
+}
+@article{2020BellCppAD,
+  author = {Bell, B.},
+  title = {{CppAD}: a package for {C++} algorithmic differentiation},
+  year = {20200610},
+}
+@article{2014HoganAdept,
+author = {Hogan, Robin J.},
+title = {Fast Reverse-Mode Automatic Differentiation Using Expression Templates in C++},
+year = {2014},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {40},
+number = {4},
+issn = {0098-3500},
+url = {https://doi.org/10.1145/2560359},
+doi = {10.1145/2560359},
+journal = {ACM Trans. Math. Softw.},
+month = {jul},
+keywords = {template metaprogramming, Adjoint code, quasi-Newton, Jacobian matrix}
+}
+@inproceedings{2021MosesEnzyme,
+author = {Moses, William S. and Churavy, Valentin and Paehler, Ludger and H\"{u}ckelheim, Jan and Narayanan, Sri Hari Krishna and Schanen, Michel and Doerfert, Johannes},
+title = {Reverse-Mode Automatic Differentiation and Optimization of GPU Kernels via Enzyme},
+year = {2021},
+isbn = {9781450384421},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3458817.3476165},
+doi = {10.1145/3458817.3476165},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+keywords = {CUDA, LLVM, ROCm, HPC, AD, GPU, automatic differentiation},
+location = {St. Louis, Missouri},
+series = {SC '21}
+}
+@article{2013HascoetTapenade,
+author = {Hascoet, Laurent and Pascual, Val\'{e}rie},
+title = {The Tapenade Automatic Differentiation Tool: Principles, Model, and Specification},
+year = {2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {3},
+issn = {0098-3500},
+url = {https://doi.org/10.1145/2450153.2450158},
+doi = {10.1145/2450153.2450158},
+journal = {ACM Trans. Math. Softw.},
+month = {may},
+keywords = {Source transformation, adjoint compiler}
+}
+@inproceedings{2005VassilevClad,
+  author = {Vassilev,V. and Vassilev,M. and Penev,A. and Moneta,L. and Ilieva,V.},
+  title = {{Clad -- Automatic Differentiation Using Clang and LLVM}},
+  journal = {Journal of Physics: Conference Series},
+  year = {2015},
+  month = {may},
+  volume = {608},
+  number = {1},
+  pages = {012055},
+  doi = {10.1088/1742-6596/608/1/012055},
+  url = {https://iopscience.iop.org/article/10.1088/1742-6596/608/1/012055/pdf},
+  publisher = {{IOP} Publishing}
+}
+@book{2008GriewankAD,
+author = {Griewank, Andreas and Walther, Andrea},
+title = {Evaluating Derivatives},
+publisher = {Society for Industrial and Applied Mathematics},
+year = {2008},
+doi = {10.1137/1.9780898717761},
+address = {},
+edition   = {Second},
+URL = {https://epubs.siam.org/doi/abs/10.1137/1.9780898717761},
+eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9780898717761}
+}
+
+@article{2019MargADReview,
+author = {Margossian, Charles C.},
+title = {A review of automatic differentiation and its efficient implementation},
+journal = {WIREs Data Mining and Knowledge Discovery},
+volume = {9},
+number = {4},
+pages = {e1305},
+keywords = {automatic differentiation, computational statistics, numerical methods},
+doi = {https://doi.org/10.1002/widm.1305},
+url = {https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1305},
+eprint = {https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/widm.1305},
+year = {2019}
+}
+%MPI
 @book{boostAsio2013,
   title={{Boost.Asio C++ network programming}},
   author={Torjo, John},
@@ -1359,5 +1487,22 @@ year = {2016}
   year= {2023},
   note = {Accessed: 2023-02-15}
 }
+
+@misc{novnc,
+	title={noVNC project website},
+	author={Martin, J},
+	howpublished = {\url{https://novnc.com/info.html}},	
+	year={2011},
+	note = {Accessed: 2023-05-22}
+}
+
+@misc{NVRTC,
+	title={A single-header C++ library for simplifying the use of CUDA Runtime Compilation},
+	author={Barsdell, Ben and Clark, Kate},
+	howpublished = {\url{https://github.com/NVIDIA/jitify}},	
+	note = {Accessed: 2023-08-24}
+}
+
+
 
 
