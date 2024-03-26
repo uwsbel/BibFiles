@@ -227,14 +227,15 @@
 }
 
 @article{asherSensorSimulation2021,
-  title     = {A Sensor Simulation Framework for Training and Testing Robots and Autonomous Vehicles},
-  author    = {Elmquist, Asher and Serban, Radu and Negrut, Dan},
-  journal   = {Journal of Autonomous Vehicles and Systems},
-  volume    = {1},
-  number    = {2},
-  pages     = {021001},
-  year      = {2021},
-  publisher = {American Society of Mechanical Engineers}
+  Title = {A Sensor Simulation Framework for Training and Testing Robots and Autonomous Vehicles},
+  author={Elmquist, Asher and Serban, Radu and Negrut, Dan},
+  journal={Journal of Autonomous Vehicles and Systems},
+  volume={1},
+  number={2},
+  pages={021001},
+  year={2021},
+  publisher={American Society of Mechanical Engineers},
+  doi = {10.1115/1.4050080},
 }
 
 @article{asherCameraOverview2021,
@@ -1008,11 +1009,11 @@
 }
 
 @inproceedings{ros2016synthia,
-  title     = {The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes},
-  author    = {Ros, German and Sellart, Laura and Materzynska, Joanna and Vazquez, David and Lopez, Antonio M},
-  booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition},
-  pages     = {3234--3243},
-  year      = {2016}
+	title={The synthia dataset: A large collection of synthetic images for semantic segmentation of urban scenes},
+	author={Ros, German and Sellart, Laura and Materzynska, Joanna and Vazquez, David and Lopez, Antonio M},
+	booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+	pages={3234--3243},
+	year={2016}
 }
 
 %2017Jayaraman – Creating 3D Virtual Driving Environments for Simulation Aided Development of Autonomous Driving and Active Safety
@@ -1339,11 +1340,14 @@ article{walch2018lens,
 
 %2017Liu – Unsupervised Image-to-Image Translation Networks
 @inproceedings{liu2017unsupervised,
-  title     = {Unsupervised image-to-image translation networks},
-  author    = {Liu, Ming-Yu and Breuel, Thomas and Kautz, Jan},
-  booktitle = {Advances in Neural Information Processing Systems},
-  pages     = {700--708},
-  year      = {2017}
+	title={Unsupervised Image-to-Image Translation Networks},
+	author={Liu, Ming-Yu and Breuel, Thomas and Kautz, Jan},
+	booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+	pages={700--708},
+	year={2017},
+	month = dec,
+	address = {Long Beach, CA, USA},
+	volume = {30},
 }
 
 %2014JaderBerg – Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition
@@ -2148,13 +2152,15 @@ article{walch2018lens,
 }
 
 @inproceedings{liu2019soft,
-  title     = {Soft prototyping camera designs for car detection based on a convolutional neural network},
-  author    = {Liu, Zhenyi and Lian, Trisha and Farrell, Joyce and Wandell, Brian},
-  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops},
-  pages     = {0--0},
-  year      = {2019}
+  title={Soft prototyping camera designs for car detection based on a convolutional neural network},
+  author={Liu, Zhenyi and Lian, Trisha and Farrell, Joyce and Wandell, Brian},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+  pages={2383--2392},
+  month = oct,
+  year={2019},
+  address = {Seoul, South Korea},
+  doi = {10.1109/ICCVW.2019.00292},
 }
-
 
 @article{lyu2022validation,
   title     = {Validation of Physics-Based Image Systems Simulation with 3D Scenes},
@@ -2420,15 +2426,14 @@ article{walch2018lens,
   publisher = {Focal}
 }
 
-@inproceedings{allan2019planetaryover,
-  author    = {Allan, Mark and Wong, Uland and Furlong, P. Michael and Rogg, Arno and McMichael, Scott and Welsh, Terry and Chen, Ian and Peters, Steven and Gerkey, Brian and Quigley, Moraan and Shirley, Mark and Deans, Matthew and Cannon, Howard and Fong, Terry},
-  booktitle = {2019 IEEE Aerospace Conference},
-  title     = {Planetary Rover Simulation for Lunar Exploration Missions},
-  year      = {2019},
-  volume    = {},
-  number    = {},
-  pages     = {1-19},
-  doi       = {10.1109/AERO.2019.8741780}
+@INPROCEEDINGS{allan2019planetaryover,
+  author={Allan, Mark and Wong, Uland and Furlong, P. Michael and Rogg, Arno and McMichael, Scott and Welsh, Terry and Chen, Ian and Peters, Steven and Gerkey, Brian and Quigley, Moraan and Shirley, Mark and Deans, Matthew and Cannon, Howard and Fong, Terry},
+  booktitle={IEEE Aerospace Conference ({AERO})}, 
+  title={Planetary Rover Simulation for Lunar Exploration Missions}, 
+  year={2019},
+  pages={1-19},
+  address = {Big Sky, Montana, USA},
+  doi={10.1109/AERO.2019.8741780}
 }
 
 @article{Roams2001,
@@ -2464,7 +2469,7 @@ article{walch2018lens,
 @article{RankinGPSErrModel1994,
   author    = {Rankin, J.},
   booktitle = {Proceedings of 1994 IEEE Position, Location and Navigation Symposium - PLANS'94},
-  title     = {An error model for sensor simulation GPS and differential GPS},
+  title     = {An error model for sensor simulation {GPS} and differential {GPS}},
   year      = {1994},
   volume    = {},
   number    = {},
@@ -2473,31 +2478,44 @@ article{walch2018lens,
 }
 
 @inproceedings{Museth2021NanoVDB,
-author = {Museth, Ken},
-title = {NanoVDB: A GPU-Friendly and Portable VDB Data Structure For Real-Time Rendering And Simulation},
-year = {2021},
-isbn = {9781450383738},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3450623.3464653},
-doi = {10.1145/3450623.3464653},
-abstract = {We introduce a sparse volumetric data structure, dubbed NanoVDB, which is portable to both C++11 and C99 as well as most graphics APIs, e.g. CUDA, OpenCL, OpenGL, WebGL, DirectX 12, OptiX, HLSL, and GLSL. As indicated by its name, NanoVDB is a mini-version of the much bigger OpenVDB library, both in terms of functionality and scope. However, NanoVDB offers one major advantage over OpenVDB, namely support for GPUs. As such it is applicable to both CPU and GPU accelerated simulation and rendering of high-resolution sparse volumes. In fact, it has already been adopted for real-time applications by several commercial renders and digital content creation tools, e.g. Autodesk’s Arnold, Blender, SideFX’s Houdini, and NVIDIA’s Omniverse just to mention a few.},
-booktitle = {ACM SIGGRAPH 2021 Talks},
-articleno = {1},
-numpages = {2},
-keywords = {simulation, rendering, gpu data structures, Sparse volumes},
-location = {Virtual Event, USA},
-series = {SIGGRAPH '21}
+  author = {Museth, Ken},
+  title = {{NanoVDB}: A {GPU}-Friendly and Portable {VDB} Data Structure For Real-Time Rendering And Simulation},
+  year = {2021},
+  isbn = {9781450383738},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3450623.3464653},
+  doi = {10.1145/3450623.3464653},
+  abstract = {We introduce a sparse volumetric data structure, dubbed NanoVDB, which is portable to both C++11 and C99 as well as most graphics APIs, e.g. CUDA, OpenCL, OpenGL, WebGL, DirectX 12, OptiX, HLSL, and GLSL. As indicated by its name, NanoVDB is a mini-version of the much bigger OpenVDB library, both in terms of functionality and scope. However, NanoVDB offers one major advantage over OpenVDB, namely support for GPUs. As such it is applicable to both CPU and GPU accelerated simulation and rendering of high-resolution sparse volumes. In fact, it has already been adopted for real-time applications by several commercial renders and digital content creation tools, e.g. Autodesk’s Arnold, Blender, SideFX’s Houdini, and NVIDIA’s Omniverse just to mention a few.},
+  booktitle = {ACM SIGGRAPH 2021 Talks},
+  articleno = {1},
+  numpages = {2},
+  keywords = {simulation, rendering, gpu data structures, Sparse volumes},
+  location = {Virtual Event, USA},
+  series = {SIGGRAPH '21}
 }
 
 @inproceedings{Museth2013OpenVDB,
-author = {Museth, Ken and Lait, Jeff and Johanson, John and Budsberg, Jeff and Henderson, Ron and Alden, Mihai and Cucka, Peter and Hill, David and Pearce, Andrew},
-year = {2013},
-month = {07},
-pages = {},
-title = {OpenVDB: an open-source data structure and toolkit for high-resolution volumes},
-doi = {10.1145/2504435.2504454}
+  author = {Museth, Ken and Lait, Jeff and Johanson, John and Budsberg, Jeff and Henderson, Ron and Alden, Mihai and Cucka, Peter and Hill, David and Pearce, Andrew},
+  year = {2013},
+  month = {07},
+  booktitle = {ACM SIGGRAPH 2013 Courses},
+  title = {{OpenVDB}: an open-source data structure and toolkit for high-resolution volumes},
+  doi = {10.1145/2504435.2504454}
 }
 
+@misc{levoy_optics,
+  author = {Levoy, Marc},
+	title  = {Optics {II}: Practical Photographic Lenses},
+  url    = {https://sites.google.com/site/marclevoylectures/schedule}
+} 
 
-
+@inproceedings{munkberg_extracting_2022,
+	address = {New Orleans, USA},
+	title = {Extracting Triangular {3D} Models, Materials, and Lighting from Images},
+	doi = {10.1109/CVPR52688.2022.00810},
+	booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	author = {Munkberg, Jacob and Chen, Wenzheng and Hasselgren, Jon and Evans, Alex and Shen, Tianchang and Müller, Thomas and Gao, Jun and Fidler, Sanja},
+	year = {2022},
+	pages = {8270--8280},
+}
