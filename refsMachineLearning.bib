@@ -1890,3 +1890,961 @@ url={https://openreview.net/forum?id=rnKgbKmelt}
   volume={30},
   year={2017}
 }
+@article{team2023gemini,
+  title={Gemini: a family of highly capable multimodal models},
+  author={Team, Gemini and Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and others},
+  journal={arXiv preprint arXiv:2312.11805},
+  year={2023}
+}
+@INPROCEEDINGS{Singh2023ICRA_llmplan1,
+  author={Singh, Ishika and Blukis, Valts and Mousavian, Arsalan and Goyal, Ankit and Xu, Danfei and Tremblay, Jonathan and Fox, Dieter and Thomason, Jesse and Garg, Animesh},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={ProgPrompt: Generating Situated Robot Task Plans using Large Language Models}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={11523-11530},
+  doi={10.1109/ICRA48891.2023.10161317}}
+
+@article{chen2023ICRA_llmplan2,
+  title={Autotamp: Autoregressive task and motion planning with llms as translators and checkers},
+  author={Chen, Yongchao and Arkin, Jacob and Zhang, Yang and Roy, Nicholas and Fan, Chuchu},
+  journal={arXiv preprint arXiv:2306.06531},
+  year={2023}
+}
+@article{chen2023ICRA_llmplan3,
+  title={Scalable multi-robot collaboration with large language models: Centralized or decentralized systems?},
+  author={Chen, Yongchao and Arkin, Jacob and Zhang, Yang and Roy, Nicholas and Fan, Chuchu},
+  journal={arXiv preprint arXiv:2309.15943},
+  year={2023}
+}
+@article{hu2023llmplan4,
+  title={Look before you leap: Unveiling the power of gpt-4v in robotic vision-language planning},
+  author={Hu, Yingdong and Lin, Fanqi and Zhang, Tong and Yi, Li and Gao, Yang},
+  journal={arXiv preprint arXiv:2311.17842},
+  year={2023}
+}
+@article{wei2022NIPS_ChainOfThought,
+  title={Chain-of-thought prompting elicits reasoning in large language models},
+  author={Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Xia, Fei and Chi, Ed and Le, Quoc V and Zhou, Denny and others},
+  journal={Advances in neural information processing systems},
+  volume={35},
+  pages={24824--24837},
+  year={2022}
+}
+@article{HAN_DNN2021113480,
+title = {A DNN-based data-driven modeling employing coarse sample data for real-time flexible multibody dynamics simulations},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {373},
+pages = {113480},
+year = {2021},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2020.113480},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782520306654},
+author = {Seongji Han and Hee-Sun Choi and Juhwan Choi and Jin Hwan Choi and Jin-Gyun Kim},
+keywords = {Flexible multibody dynamics (FMBD), Data-driven modeling, Real-time simulations, Deep neural networks, Coarse sample data, Error correction},
+abstract = {To achieve real-time simulations for flexible multibody dynamics (FMBD) systems, we suggest data-driven modeling based on deep neural networks (DNNs). While a DNN can represent system dynamics accurately, two main factors of FMBD systems require demanding computational costs for training a DNN. One is a fine discretization of flexible bodies, which produces a large number of training data. The other is the nonlinearity of FMBD, which requires train DNN models to have numerous weight and bias parameters. To overcome these difficulties, we propose a data-driven modeling algorithm for training a DNN efficiently that consists of two steps. First, sets of randomly chosen coarse data sequentially train a DNN model. This helps speed up the training process, even for highly parametrized DNNs. At some point, the model no longer improves, and introducing an error correction step increases the performance of the model. The proposed algorithm is easy to employ and utilizes an efficient size of training data while achieving high performance of the DNN as demonstrated by numerical examples.}
+}
+
+@article{YE_MBSNET2021107716,
+title = {MBSNet: A deep learning model for multibody dynamics simulation and its application to a vehicle-track system},
+journal = {Mechanical Systems and Signal Processing},
+volume = {157},
+pages = {107716},
+year = {2021},
+issn = {0888-3270},
+doi = {https://doi.org/10.1016/j.ymssp.2021.107716},
+url = {https://www.sciencedirect.com/science/article/pii/S0888327021001114},
+author = {Yunguang Ye and Ping Huang and Yu Sun and Dachuan Shi},
+keywords = {MBSNet, Deep learning, Multibody dynamics simulation, Vehicle-track coupled dynamics simulation, Prediction, Challenge},
+abstract = {In multibody dynamics simulation (MBS) analysis, researchers usually face three challenges: high modeling difficulty, large calculation amount, and restricted solver. Therefore, it is of interest to explore a new technology that can solve or avoid one or more of these challenges. This article first explores how to use deep learning (DL) to realize dynamics simulation of a multibody system and contributes to the modeling and analysis of MBS in two meaningful aspects: (1) Based on the 3D convolutional neural network (3DCNN), long short-term memory(LSTM), and fully connected network (FCNN), we develop a DL network called MBSNet, which considers the relationship between system variables and disturbance variables of a general multibody system, to realize MBS analysis. (2) Based on the short-term MBS results of a vehicle-track vertically coupled dynamics model, we train MBSNet and apply it to long-term system dynamic predictions. The comparison between the MBSNet result and the MBS result shows that MBSNet has high robustness in the face of different track irregularities and can accurately and quickly achieve long-term predictions of low-frequency dynamic responses. Finally, the evidence from the vehicle-track case shows that MBSNet has the potential to be used in MBS analysis, but it faces some challenges, including inaccurate prediction of high-frequency impact components caused by the coupled motion of bodies in a multi-degree-of-freedom system, improper training strategy, insufficient working conditions and samples considered during training, etc.}
+}
+
+@article{Choi_DDSdd57a6f7c2064450bc1f79231ef67414,
+title = "Data-driven simulation for general-purpose multibody dynamics using Deep Neural Networks",
+abstract = "In this paper, we introduce a machine learning-based simulation framework of general-purpose multibody dynamics (MBD). The aim of the framework is to construct a well-trained meta-model of MBD systems, based on a deep neural network (DNN). Since the main advantage of the meta-model is the enhancement of computational efficiency in returning solutions, the modeling would be beneficial for solving highly complex MBD problems in a short time. Furthermore, for dynamics problems, not only the accuracy but also the smoothness in time of motion solutions, such as displacement, velocity, and acceleration, are essential aspects to consider. We analyze and discuss the influence of training data structures on both aspects of solutions. As a result of the introduced approach, the meta-model provides motion estimation of system dynamics without solving an analytical equation of motion or a numerical solver. Numerical tests demonstrate the performance of the proposed meta-modeling for representing several MBD systems.",
+keywords = "Data-driven simulation, Deep neural network, Feedforward network, Meta-model, Multibody dynamics",
+author = "Choi, {Hee Sun} and Junmo An and Seongji Han and Kim, {Jin Gyun} and Jung, {Jae Yoon} and Juhwan Choi and Grzegorz Orzechowski and Aki Mikkola and Choi, {Jin Hwan}",
+year = "2021",
+month = apr,
+doi = "10.1007/s11044-020-09772-8",
+language = "English",
+volume = "51",
+pages = "419--454",
+journal = "Multibody System Dynamics",
+issn = "1384-5640",
+publisher = "Springer Netherlands",
+number = "4",
+}
+
+@article{Ye_FTI_2023,
+author = {Go, Myeong-Seok and Han, Seongji and Lim, Jae Hyuk and Kim, Jin-Gyun},
+year = {2023},
+month = {02},
+pages = {1-19},
+title = {An efficient fixed-time increment-based data-driven simulation for general multibody dynamics using deep neural networks},
+journal = {Engineering with Computers},
+doi = {10.1007/s00366-023-01793-z}
+}
+
+@article{Chen_NODE_2018,
+  title={Neural ordinary differential equations},
+  author={Chen, Ricky TQ and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David K},
+  journal={Advances in neural information processing systems},
+  volume={31},
+  year={2018}
+}
+@article{OWO_CHEMNODE_2022,
+title = {ChemNODE: A neural ordinary differential equations framework for efficient chemical kinetic solvers},
+journal = {Energy and AI},
+volume = {7},
+pages = {100118},
+year = {2022},
+issn = {2666-5468},
+doi = {https://doi.org/10.1016/j.egyai.2021.100118},
+url = {https://www.sciencedirect.com/science/article/pii/S2666546821000677},
+author = {Opeoluwa Owoyele and Pinaki Pal},
+keywords = {Machine learning, Neural ordinary differential equations, Artificial neural networks, Deep learning, Chemical kinetics, Artificial neural network, Chemistry solvers},
+abstract = {Solving for detailed chemical kinetics remains one of the major bottlenecks for computational fluid dynamics simulations of reacting flows using a finite-rate-chemistry approach. This has motivated the use of neural networks to predict stiff chemical source terms as functions of the thermochemical state of the combustion system. However, due to the nonlinearities and multi-scale nature of combustion, the predicted solution often diverges from the true solution when these machine learning models are coupled with a computational fluid dynamics solver. This is because these approaches minimize the error during training without guaranteeing successful integration with ordinary differential equation solvers. In the present work, a novel neural ordinary differential equations approach to modeling chemical kinetics, termed as ChemNODE, is developed. In this machine learning framework, the chemical source terms predicted by the neural networks are integrated during training, and by computing the required derivatives, the neural network weights are adjusted accordingly to minimize the difference between the predicted and ground-truth solution. A proof-of-concept study is performed with ChemNODE for homogeneous autoignition of hydrogen-air mixture over a range of composition and thermodynamic conditions. It is shown that ChemNODE accurately captures the chemical kinetic behavior and reproduces the results obtained using the detailed kinetic mechanism at a fraction of the computational cost.}
+}
+
+@inproceedings{norcliffe2020secondNODE,
+ author = {Norcliffe, Alexander and Bodnar, Cristian and Day, Ben and Simidjievski, Nikola and Li\'{o}, Pietro},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M.F. Balcan and H. Lin},
+ pages = {5911--5921},
+ publisher = {Curran Associates, Inc.},
+ title = {On Second Order Behaviour in Augmented Neural ODEs},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2020/file/418db2ea5d227a9ea8db8e5357ca2084-Paper.pdf},
+ volume = {33},
+ year = {2020}
+}
+
+@misc{chen2020symplecticRNN,
+      title={Symplectic Recurrent Neural Networks}, 
+      author={Zhengdao Chen and Jianyu Zhang and Martin Arjovsky and Léon Bottou},
+      year={2020},
+      eprint={1909.13334},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@Article{RNNMBD,
+AUTHOR = {Koutsoupakis, Josef and Giagopoulos, Dimitrios},
+TITLE = {Drivetrain Response Prediction Using AI-Based Surrogate and Multibody Dynamics Model},
+JOURNAL = {Machines},
+VOLUME = {11},
+YEAR = {2023},
+NUMBER = {5},
+ARTICLE-NUMBER = {514},
+URL = {https://www.mdpi.com/2075-1702/11/5/514},
+ISSN = {2075-1702},
+ABSTRACT = {Numerical models, such as multibody dynamics ones, are broadly used in various engineering applications, either as an integral part of the preliminary design of a product or simply to analyze its behavior. Aiming to increase the accuracy and potential of these models, complex mechanisms are constantly being added to existing methods of simulation, leading to powerful modelling frameworks that are able to simulate most mechanical systems. This increase in accuracy and flexibility, however, comes at a great computational cost. To mitigate the issue of high computation times, surrogates, such as reduced order models, have traditionally been used as cheaper alternatives, allowing for much faster simulations at the cost of introducing some error to the overall process. More recently, advancements in Artificial Intelligence have also allowed for the introduction of Artificial Intelligence-based models in the field of surrogates. While still undergoing development, these Artificial Intelligence based methodologies seem to be a potentially good alternative to the high-fidelity/burden models. To this end, an Artificial Intelligence-based surrogate comprised of Artificial Neural Networks as a means of predicting the response of dynamic mechanical systems is presented in this work, with application to a non-linear experimental gear drivetrain. The model utilizes Recurrent Neural Networks to accurately capture the system&rsquo;s response and is shown to yield accurate results, especially in the feature space. This methodology can provide an alternative to the traditional model surrogates and find application in multiple fields such as system optimization or data mining.},
+DOI = {10.3390/machines11050514}
+}
+
+@misc{MNODE_supportData2024,
+	author = {Wang, Jingquan and Wang, Shu and Unjhawala, Huzaifa and Wu, Jinlong and Negrut, Dan}, 
+	title = {{Models, scripts, and meta-data: Physics-informed data-driven modeling and simulation of constrained multibody systems}},
+	howpublished = {\url{https://github.com/uwsbel/sbel-reproducibility/tree/master/2024/MNODE-code}},
+	year = {2024}
+}
+
+@Article{Wehage82,
+	Title                    = {Generalized Coordinate Partitioning for Dimension Reduction in Analysis of Constrained Dynamic Systems},
+	Author                   = {R.~A. Wehage and E.~J. Haug},
+	Journal                  = {J. Mech. Design},
+	Year                     = {1982},
+	Pages                    = {247--255},
+	Volume                   = {104}
+}
+
+@InProceedings{PINODE_constraints-djeumou22a,
+  title = 	 {Neural Networks with Physics-Informed Architectures and Constraints for Dynamical Systems Modeling},
+  author =       {Djeumou, Franck and Neary, Cyrus and Goubault, Eric and Putot, Sylvie and Topcu, Ufuk},
+  booktitle = 	 {Proceedings of The 4th Annual Learning for Dynamics and Control Conference},
+  pages = 	 {263--277},
+  year = 	 {2022},
+  editor = 	 {Firoozi, Roya and Mehr, Negar and Yel, Esen and Antonova, Rika and Bohg, Jeannette and Schwager, Mac and Kochenderfer, Mykel},
+  volume = 	 {168},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--24 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v168/djeumou22a/djeumou22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v168/djeumou22a.html},
+  abstract = 	 {Effective inclusion of physics-based knowledge into deep neural network models of dynamical systems can greatly improve data efficiency and generalization. Such a priori knowledge might arise from physical principles (e.g., conservation laws) or from the system’s design (e.g., the Jacobian matrix of a robot), even if large portions of the system dynamics remain unknown. We develop a framework to learn dynamics models from trajectory data while incorporating a priori system knowledge as inductive bias. More specifically, the proposed framework uses physics-based side information to inform the structure of the neural network itself, and to place constraints on the values of the outputs and the internal states of the model. It represents the system’s vector field as a composition of known and unknown functions, the latter of which are parametrized by neural networks. The physics-informed constraints are enforced via the augmented Lagrangian method during the model’s training. We experimentally demonstrate the benefits of the proposed approach on a variety of dynamical systems – including a benchmark suite of robotics environments featuring large state spaces, non-linear dynamics, external forces, contact forces, and control inputs. By exploiting a priori system knowledge during training, the proposed approach learns to predict the system dynamics two orders of magnitude more accurately than a baseline approach that does not include prior knowledge, given the same training dataset.}
+}
+@article{PINN_constraints,
+author = {Lu, Lu and Pestourie, Rapha\"{e}l and Yao, Wenjie and Wang, Zhicheng and Verdugo, Francesc and Johnson, Steven G.},
+title = {Physics-Informed Neural Networks with Hard Constraints for Inverse Design},
+journal = {SIAM Journal on Scientific Computing},
+volume = {43},
+number = {6},
+pages = {B1105-B1132},
+year = {2021},
+doi = {10.1137/21M1397908},
+
+URL = { 
+        https://doi.org/10.1137/21M1397908
+}
+}
+
+@InProceedings{adap_adjoint_NODE,
+  title = 	 {Adaptive Checkpoint Adjoint Method for Gradient Estimation in Neural {ODE}},
+  author =       {Zhuang, Juntang and Dvornek, Nicha and Li, Xiaoxiao and Tatikonda, Sekhar and Papademetris, Xenophon and Duncan, James},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {11639--11649},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/zhuang20a/zhuang20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/zhuang20a.html},
+  abstract = 	 {The empirical performance of neural ordinary differential equations (NODEs) is significantly inferior to discrete-layer models on benchmark tasks (e.g. image classification). We demonstrate an explanation is the inaccuracy of existing gradient estimation methods: the adjoint method has numerical errors in reverse-mode integration; the naive method suffers from a redundantly deep computation graph. We propose the Adaptive Checkpoint Adjoint (ACA) method: ACA applies a trajectory checkpoint strategy which records the forward- mode trajectory as the reverse-mode trajectory to guarantee accuracy; ACA deletes redundant components for shallow computation graphs; and ACA supports adaptive solvers. On image classification tasks, compared with the adjoint and naive method, ACA achieves half the error rate in half the training time; NODE trained with ACA outperforms ResNet in both accuracy and test-retest reliability. On time-series modeling, ACA outperforms competing methods. Furthermore, NODE with ACA can incorporate physical knowledge to achieve better accuracy.}
+}
+@inproceedings{adjoint_symplectic,
+ author = {Matsubara, Takashi and Miyatake, Yuto and Yaguchi, Takaharu},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {20772--20784},
+ publisher = {Curran Associates, Inc.},
+ title = {Symplectic Adjoint Method for Exact Gradient of Neural ODE with Minimal Memory},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/adf8d7f8c53c8688e63a02bfb3055497-Paper.pdf},
+ volume = {34},
+ year = {2021}
+}
+@article{Lagrangian_model_based,
+  author       = {Jayesh K. Gupta and
+                  Kunal Menda and
+                  Zachary Manchester and
+                  Mykel J. Kochenderfer},
+  title        = {A General Framework for Structured Learning of Mechanical Systems},
+  journal      = {CoRR},
+  volume       = {abs/1902.08705},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1902.08705},
+  eprinttype    = {arXiv},
+  eprint       = {1902.08705},
+  timestamp    = {Tue, 21 May 2019 18:03:37 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1902-08705.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@article{efficient_PCA,
+title = "An efficient fixed-time increment-based data-driven simulation for general multibody dynamics using deep neural networks",
+abstract = "In this study, we propose an efficient fixed-time increment-based numerical scheme for data-driven analysis of general multibody dynamics (MBD) problems combining deep neural network (DNN) modeling and principal component analysis (PCA), avoiding local fluctuation of the time transient response that occurred in other works. Output results of the transient dynamics simulation can be expressed as general displacement, velocity, and acceleration, which can also be represented in a reduced dimension by the PCA. This data set is expressed in a fixed-time increment based format, leading to a large data set that is advantageous for training to construct an efficient DNN meta-model. In addition, the number of samples is also significantly reduced. As a result, the training cost is dramatically reduced compared to the simulation without PCA despite a smaller number of samples being used. To demonstrate the performance of the proposed scheme, we solve three benchmark problems: a double pendulum, damped spherical elastic pendulum, and vibrating transmission. From the results, it was found that, when the proposed scheme is used, the training time can be drastically reduced while maintaining high accuracy.",
+keywords = "Deep neural networks (DNN), Machine learning (ML), Multibody dynamics (MBD), Principal component analysis (PCA), Real-time simulation",
+author = "Go, {Myeong Seok} and Seongji Han and Lim, {Jae Hyuk} and Kim, {Jin Gyun}",
+year = "2023",
+doi = "10.1007/s00366-023-01793-z",
+language = "English",
+journal = "Engineering with Computers",
+issn = "0177-0667",
+publisher = "Springer London",
+}
+@article{
+NODE_con_HNN,
+title={Unifying physical systems{\textquoteright} inductive biases in neural {ODE} using dynamics constraints},
+author={Yi Heng Lim and Muhammad Firmansyah Kasim},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=ZOAb497iaY},
+note={}
+}
+
+@article{HNN_EOM,
+  title = {Hamiltonian neural networks for solving equations of motion},
+  author = {Mattheakis, Marios and Sondak, David and Dogra, Akshunna S. and Protopapas, Pavlos},
+  journal = {Phys. Rev. E},
+  volume = {105},
+  issue = {6},
+  pages = {065305},
+  numpages = {11},
+  year = {2022},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.105.065305},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.105.065305}
+}
+@article{HNN,
+  title={Hamiltonian neural networks},
+  author={Greydanus, Samuel and Dzamba, Misko and Yosinski, Jason},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+@article{DissipativeHNN,
+  title={Dissipative {H}amiltonian Neural Networks: Learning Dissipative and Conservative Dynamics Separately},
+  author={Andrew Sosanya and Sam Greydanus},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2201.10085},
+  url={https://api.semanticscholar.org/CorpusID:246275946}
+}
+@inproceedings{
+zhong2019dissipativeHN,
+title={Dissipative Sym{ODEN}: Encoding {H}amiltonian Dynamics with Dissipation and Control into Deep Learning},
+author={Yaofeng Desmond Zhong and Biswadip Dey and Amit Chakraborty},
+booktitle={ICLR 2020 Workshop on Integration of Deep Neural Models and Differential Equations},
+year={2019},
+url={https://openreview.net/forum?id=knjWFNx6CN}
+}
+@inproceedings{xiong2020nonseparable_HNN,
+  title={Nonseparable Symplectic Neural Networks},
+  author={Xiong, Shiying and Tong, Yunjin and He, Xingzhe and Yang, Shuqi and Yang, Cheng and Zhu, Bo},
+  booktitle={International Conference on Learning Representations},
+  year={2020}
+}
+@inproceedings{toth2019hamiltonian_gen,
+  title={Hamiltonian Generative Networks},
+  author={Toth, Peter and Rezende, Danilo J and Jaegle, Andrew and Racani{\`e}re, S{\'e}bastien and Botev, Aleksandar and Higgins, Irina},
+  booktitle={International Conference on Learning Representations},
+  year={2019}
+}
+
+@article{sanchez2019hamiltonian_graph,
+  title={Hamiltonian graph networks with ode integrators},
+  author={Sanchez-Gonzalez, Alvaro and Bapst, Victor and Cranmer, Kyle and Battaglia, Peter},
+  journal={arXiv preprint arXiv:1909.12790},
+  year={2019}
+}
+@incollection{ssinn2020_symplectic_HNN,
+title = {Sparse Symplectically Integrated Neural Networks},
+author = {DiPietro, Daniel M. and Xiong, Shiying and Zhu, Bo},
+booktitle = {Advances in Neural Information Processing Systems 34},
+year = {2020}
+}
+@article{DAVID_symplectic_HNN,
+title = {Symplectic learning for {H}amiltonian neural networks},
+journal = {Journal of Computational Physics},
+volume = {494},
+pages = {112495},
+year = {2023},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2023.112495},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999123005909},
+author = {Marco David and Florian Méhats},
+keywords = {Hamiltonian neural network, Ordinary differential equation, Hamiltonian system, Geometric numerical integration, Symplectic numerical method},
+abstract = {Machine learning methods are widely used in the natural sciences to model and predict physical systems from observation data. Yet, they are often used as poorly understood “black boxes,” disregarding existing mathematical structure and invariants of the problem. Recently, the proposal of Hamiltonian Neural Networks (HNNs) took a first step towards a unified “gray box” approach, using physical insight to improve performance for Hamiltonian systems. In this paper, we explore a significantly improved training method for HNNs, exploiting the symplectic structure of Hamiltonian systems with a different loss function. This frees the loss from an artificial lower bound. We mathematically guarantee the existence of an exact Hamiltonian function which the HNN can learn. This allows us to prove and numerically analyze the errors made by HNNs which, in turn, renders them fully explainable. Finally, we present a novel post-training correction to obtain the true Hamiltonian only from discretized observation data, up to an arbitrary order.}
+}
+@article{finzi2020simplifying_HNNLNN_CON,
+  title={Simplifying {H}amiltonian and {L}agrangian neural networks via explicit constraints},
+  author={Finzi, Marc and Wang, Ke Alexander and Wilson, Andrew G},
+  journal={Advances in neural information processing systems},
+  volume={33},
+  pages={13880--13889},
+  year={2020}
+}
+@inproceedings{
+NSF_HNN,
+title={Neural Symplectic Form: Learning {H}amiltonian Equations on General Coordinate Systems},
+author={Yuhan Chen and Takashi Matsubara and Takaharu Yaguchi},
+booktitle={Advances in Neural Information Processing Systems},
+editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+year={2021},
+url={https://openreview.net/forum?id=4h4oqp-ATxb}
+}
+
+@misc{HNN_IET,
+      title={Learning Dynamical Systems from Noisy Data with Inverse-Explicit Integrators}, 
+      author={Håkon Noren and Sølve Eidnes and Elena Celledoni},
+      year={2023},
+      eprint={2306.03548},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@article{LNN,
+  author       = {Miles D. Cranmer and
+                  Sam Greydanus and
+                  Stephan Hoyer and
+                  Peter W. Battaglia and
+                  David N. Spergel and
+                  Shirley Ho},
+  title        = {Lagrangian Neural Networks},
+  journal      = {CoRR},
+  volume       = {abs/2003.04630},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2003.04630},
+  eprinttype    = {arXiv},
+  eprint       = {2003.04630},
+  timestamp    = {Sat, 23 Jan 2021 01:12:55 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2003-04630.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{
+Constant_NODE,
+title={Constants of motion network},
+author={Muhammad Firmansyah Kasim and Yi Heng Lim},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=Lpla1jmJkW}
+}
+
+@article{Orignal_PINODE,
+title = {Modeling System Dynamics with Physics-Informed Neural Networks Based on {L}agrangian Mechanics⁎⁎This work was sponsored by the German Federal Ministry of Education and Research (ID: 01 IS 18049 A).},
+journal = {IFAC-PapersOnLine},
+volume = {53},
+number = {2},
+pages = {9195-9200},
+year = {2020},
+note = {21st IFAC World Congress},
+issn = {2405-8963},
+doi = {https://doi.org/10.1016/j.ifacol.2020.12.2182},
+url = {https://www.sciencedirect.com/science/article/pii/S2405896320328354},
+author = {Manuel A. Roehrl and Thomas A. Runkler and Veronika Brandtstetter and Michel Tokic and Stefan Obermayer},
+keywords = {neural network models, computer simulation, differential equations, semi-parametric identification, system identification},
+abstract = {Identifying accurate dynamic models is required for the simulation and control of various technical systems. In many important real-world applications, however, the two main modeling approaches often fail to meet requirements: first principles methods suffer from high bias, whereas data-driven modeling tends to have high variance. Additionally, purely data-based models often require large amounts of data and are often difficult to interpret. In this paper, we present physics-informed neural ordinary differential equations (PINODE), a hybrid model that combines the two modeling techniques to overcome the aforementioned problems. This new approach directly incorporates the equations of motion originating from the Lagrange mechanics into a deep neural network structure. Thus, we can integrate prior physics knowledge where it is available and use function approximation—e.g., neural networks—where it is not. The method is tested with a forward model of a real-world physical system with large uncertainties. The resulting model is accurate and data-efficient while ensuring physical plausibility. With this, we demonstrate a method that beneficially merges physical insight with real data. Our findings are of interest for model-based control and system identification of mechanical systems.}
+}
+@article{review_MBD12023,
+  title={Multibody dynamics and control using machine learning},
+  author={Hashemi, Arash and Orzechowski, Grzegorz and Mikkola, Aki and McPhee, John},
+  journal={Multibody System Dynamics},
+  pages={1--35},
+  year={2023},
+  publisher={Springer}
+}
+
+@article{DL_minimalcorrdinates,
+title = {Deep learning for model order reduction of multibody systems to minimal coordinates},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {373},
+pages = {113517},
+year = {2021},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2020.113517},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782520307027},
+author = {Andrea Angeli and Wim Desmet and Frank Naets},
+keywords = {Multibody dynamics, Minimal coordinates, Deep learning, Model order reduction},
+abstract = {Among the proposed formulations for rigid multibody dynamics, the minimal coordinates approach permits to parametrize the system motion with the minimal amount of degrees of freedom without the need of additional constraints equations. This leads to a system of ordinary differential equations to describe the motion which enables a straightforward combination of the model with control or estimation algorithms. However, an explicit relation between the model full coordinates and a minimal number of parameters is not always available or easily obtainable, especially for spatial closed-loop mechanisms. In this work, we therefore propose to deploy deep learning to find an approximation of such motion mappings. More specifically, an autoencoder neural network architecture is exploited for the nonlinear dimensionality reduction from full to minimal coordinates. A novel neural-network training scheme is introduced, which exploits the multibody model dynamics information to optimize the decoder-function derivatives so that they represent the tangent space and the curvature of the minimal coordinates manifold. This scheme leads to an effective description of the motion manifold which can be used to express the dynamics in minimal coordinates. The approach is validated on two reference rigid body mechanisms.}
+}
+@inproceedings{nwankpa2021activation,
+  title={Activation functions: comparison of trends in practice and research for deep learning},
+  author={Nwankpa, Chigozie Enyinna and Ijomah, Winifred and Gachagan, Anthony and Marshall, Stephen},
+  booktitle={2nd International Conference on Computational Sciences and Technology},
+  pages={124--133},
+  year={2021}
+}
+@inproceedings{CRNN_DYSC,
+  title={Dynamic systems simulation and control using consecutive recurrent neural networks},
+  author={Chandar, Srikanth and Sunder, Harsha},
+  booktitle={Modeling, Machine Learning and Astronomy: First International Conference, MMLA 2019, Bangalore, India, November 22--23, 2019, Revised Selected Papers 1},
+  pages={92--103},
+  year={2020},
+  organization={Springer}
+}
+
+@article{ActivationFC,
+  title={Activation Functions: Comparison of trends in Practice and Research for Deep Learning},
+  author={Chigozie Nwankpa and Winifred L. Ijomah and Anthony Gachagan and Stephen Marshall},
+  journal={ArXiv},
+  year={2018},
+  volume={abs/1811.03378},
+  url={https://api.semanticscholar.org/CorpusID:53208763}
+}
+
+@article{RNN,
+title = {Recurrent Neural Networks for Time Series Forecasting: Current status and future directions},
+journal = {International Journal of Forecasting},
+volume = {37},
+number = {1},
+pages = {388-427},
+year = {2021},
+issn = {0169-2070},
+doi = {https://doi.org/10.1016/j.ijforecast.2020.06.008},
+url = {https://www.sciencedirect.com/science/article/pii/S0169207020300996},
+author = {Hansika Hewamalage and Christoph Bergmeir and Kasun Bandara},
+keywords = {Big data, Forecasting, Best practices, Framework},
+abstract = {Recurrent Neural Networks (RNNs) have become competitive forecasting methods, as most notably shown in the winning method of the recent M4 competition. However, established statistical models such as exponential smoothing (ETS) and the autoregressive integrated moving average (ARIMA) gain their popularity not only from their high accuracy, but also because they are suitable for non-expert users in that they are robust, efficient, and automatic. In these areas, RNNs have still a long way to go. We present an extensive empirical study and an open-source software framework of existing RNN architectures for forecasting, and we develop guidelines and best practices for their use. For example, we conclude that RNNs are capable of modelling seasonality directly if the series in the dataset possess homogeneous seasonal patterns; otherwise, we recommend a deseasonalisation step. Comparisons against ETS and ARIMA demonstrate that (semi-) automatic RNN models are not silver bullets, but they are nevertheless competitive alternatives in many situations.}
+}
+@inproceedings{invariant_NN_CNN,
+  title={Incorporating Symmetry into Deep Dynamics Models for Improved Generalization.},
+  author={Wang, R},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2021}
+}
+
+@conference{PINN_cheats,
+title = "How PINNs cheat: Predicting chaotic motion of a double pendulum",
+abstract = "Despite extensive research, physics-informed neural networks (PINNs) are still difficult to train, especially when the optimization relies heavily on the physics loss term. Convergence problems frequently occur when simulating dynamical systems with high-frequency components, chaotic or turbulent behavior. In this work, we discuss whether the traditional PINN framework is able to predict chaotic motion by conducting experiments on the undamped double pendulum. Our results demonstrate that PINNs do not exhibit any sensitivity to perturbations in the initial condition. Instead, the PINN optimization consistently converges to physically correct solutions that violate the initial condition only marginally, but diverge significantly from the desired solution due to the chaotic nature of the system. In fact, the PINN predictions primarily exhibit low-frequency components with a smaller magnitude of higher-order derivatives, which favors lower physics loss values compared to the desired solution. We thus hypothesize that the PINNs {"}cheat{"} by shifting the initial conditions to values that correspond to physically correct solutions that are easier to learn. Initial experiments suggest that domain decomposition combined with an appropriate loss weighting scheme mitigates this effect and allows convergence to the desired solution.",
+keywords = "neural network, Partial differential equations, optimization",
+author = "Sophie Steger and Rohrhofer, {Franz Martin} and Bernhard Geiger",
+year = "2022",
+language = "English",
+note = "The Symbiosis of Deep Learning and Differential Equations II @ the 36th Neural Information Processing Systems (NeurIPS) Conference ; Conference date: 09-12-2022",
+}
+
+@book{MBD,
+  title={Dynamics of multibody systems},
+  author={Shabana, Ahmed A},
+  year={2020},
+  publisher={Cambridge university press}
+}
+
+@article{newmark1959method,
+  title={A method of computation for structural dynamics},
+  author={Newmark, Nathan M},
+  journal={Journal of the engineering mechanics division},
+  volume={85},
+  number={3},
+  pages={67--94},
+  year={1959},
+  publisher={American Society of Civil Engineers}
+}
+
+@article{SONODE_optimizer,
+  title={Second-order neural ode optimizer},
+  author={Liu, Guan-Horng and Chen, Tianrong and Theodorou, Evangelos},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={25267--25279},
+  year={2021}
+}
+
+@article{PNODE,
+  title={Parameterized neural ordinary differential equations: Applications to computational physics problems},
+  author={Lee, Kookjin and Parish, Eric J},
+  journal={Proceedings of the Royal Society A},
+  volume={477},
+  number={2253},
+  pages={20210162},
+  year={2021},
+  publisher={The Royal Society}
+}
+
+@book{fortin2000augmented,
+  title={Augmented {L}agrangian methods: applications to the numerical solution of boundary-value problems},
+  author={Fortin, Michel and Glowinski, Roland},
+  year={2000},
+  publisher={Elsevier}
+}
+
+@book{PDE_con,
+  title={Numerical PDE-constrained optimization},
+  author={De los Reyes, Juan Carlos},
+  year={2015},
+  publisher={Springer}
+}
+
+@article{beucler2021enforcing,
+  title={Enforcing analytic constraints in neural networks emulating physical systems},
+  author={Beucler, Tom and Pritchard, Michael and Rasp, Stephan and Ott, Jordan and Baldi, Pierre and Gentine, Pierre},
+  journal={Physical Review Letters},
+  volume={126},
+  number={9},
+  pages={098302},
+  year={2021},
+  publisher={APS}
+}
+
+@article{PhysRevLett.126.098302,
+  title = {Enforcing Analytic Constraints in Neural Networks Emulating Physical Systems},
+  author = {Beucler, Tom and Pritchard, Michael and Rasp, Stephan and Ott, Jordan and Baldi, Pierre and Gentine, Pierre},
+  journal = {Phys. Rev. Lett.},
+  volume = {126},
+  issue = {9},
+  pages = {098302},
+  numpages = {7},
+  year = {2021},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.126.098302},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.126.098302}
+}
+@inproceedings{kaiming_ini,
+  title={Delving deep into rectifiers: Surpassing human-level performance on imagenet classification},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE international conference on computer vision},
+  pages={1026--1034},
+  year={2015}
+}
+
+@InProceedings{xavier_ini,
+  title = 	 {Understanding the difficulty of training deep feedforward neural networks},
+  author = 	 {Glorot, Xavier and Bengio, Yoshua},
+  booktitle = 	 {Proceedings of the Thirteenth International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {249--256},
+  year = 	 {2010},
+  editor = 	 {Teh, Yee Whye and Titterington, Mike},
+  volume = 	 {9},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Chia Laguna Resort, Sardinia, Italy},
+  month = 	 {13--15 May},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf},
+  url = 	 {https://proceedings.mlr.press/v9/glorot10a.html},
+  abstract = 	 {Whereas before 2006 it appears that deep multi-layer neural networks were not successfully trained, since then several algorithms have been shown to successfully train them, with experimental results showing the superiority of deeper vs less deep architectures. All these experimental results were obtained with new initialization or training mechanisms. Our objective here is to understand better why standard gradient descent from random initialization is doing so poorly with deep neural networks, to better understand these recent relative successes and help design better algorithms in the future.  We first observe the influence of the non-linear activations functions. We find that the logistic sigmoid activation is unsuited for deep networks with random initialization because of its mean value, which can drive especially the top hidden layer into saturation. Surprisingly, we find that saturated units can move out of saturation by themselves, albeit slowly, and explaining the plateaus sometimes seen when training neural networks. We find that a new non-linearity that saturates less can often be beneficial. Finally, we study how activations and gradients vary across layers and during training, with the idea that training may be more difficult when the singular values of the Jacobian associated with each layer are far from 1.  Based on these considerations, we propose a new initialization scheme that brings substantially faster convergence.}
+}
+@article{Kingma2014AdamAM,
+  title={Adam: A Method for Stochastic Optimization},
+  author={Diederik P. Kingma and Jimmy Ba},
+  journal={CoRR},
+  year={2014},
+  volume={abs/1412.6980},
+  url={https://api.semanticscholar.org/CorpusID:6628106}
+}
+@article{Zhao_23_optical_design,
+author = {Yun Zhao and Hang Chen and Min Lin and Haiou Zhang and Tao Yan and Ruqi Huang and Xing Lin and Qionghai Dai},
+journal = {Opt. Lett.},
+keywords = {Machine learning; Neural networks; Optical computing; Optical imaging; Optical neural systems; Optical signals},
+number = {3},
+pages = {628--631},
+publisher = {Optica Publishing Group},
+title = {Optical neural ordinary differential equations},
+volume = {48},
+month = {Feb},
+year = {2023},
+url = {https://opg.optica.org/ol/abstract.cfm?URI=ol-48-3-628},
+doi = {10.1364/OL.477713},
+abstract = {Increasing the layer number of on-chip photonic neural networks (PNNs) is essential to improve its model performance. However, the successive cascading of network hidden layers results in larger integrated photonic chip areas. To address this issue, we propose the optical neural ordinary differential equations (ON-ODEs) architecture that parameterizes the continuous dynamics of hidden layers with optical ODE solvers. The ON-ODE comprises the PNNs followed by the photonic integrator and optical feedback loop, which can be configured to represent residual neural networks (ResNets) and implement the function of recurrent neural networks with effectively reduced chip area occupancy. For the interference-based optoelectronic nonlinear hidden layer, the numerical experiments demonstrate that the single hidden layer ON-ODE can achieve approximately the same accuracy as the two-layer optical ResNets in image classification tasks. In addition, the ON-ODE improves the model classification accuracy for the diffraction-based all-optical linear hidden layer. The time-dependent dynamics property of ON-ODE is further applied for trajectory prediction with high accuracy.},
+}
+@inproceedings{video_node,
+  title={Vid-ode: Continuous-time video generation with neural ordinary differential equation},
+  author={Park, Sunghyun and Kim, Kangyeol and Lee, Junsoo and Choo, Jaegul and Lee, Joonseok and Kim, Sookyung and Choi, Edward},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={3},
+  pages={2412--2422},
+  year={2021}
+}
+@article{chem_node2,
+  title={Physics-Enhanced Neural Ordinary Differential Equations: Application to Industrial Chemical Reaction Systems},
+  author={Sorourifar, Farshud and Peng, You and Castillo, Ivan and Bui, Linh and Venegas, Juan and Paulson, Joel A},
+  journal={Industrial \& Engineering Chemistry Research},
+  volume={62},
+  number={38},
+  pages={15563--15577},
+  year={2023},
+  publisher={ACS Publications}
+}
+@inproceedings{lim2022unifying,
+  title={Unifying physical systems’ inductive biases in neural ODE using dynamics constraints},
+  author={Lim, Yi Heng and Kasim, Muhammad Firmansyah},
+  booktitle={ICML 2022 2nd AI for Science Workshop},
+  year={2022}
+}
+@article{daems2022keycld,
+  title={KeyCLD: Learning Constrained {L}agrangian Dynamics in Keypoint Coordinates from Images},
+  author={Daems, Rembert and Taets, Jeroen and Crevecoeur, Guillaume and others},
+  journal={arXiv preprint arXiv:2206.11030},
+  year={2022}
+}
+
+@InProceedings{Jiang_2021_CVPR,
+    author    = {Jiang, Boyan and Zhang, Yinda and Wei, Xingkui and Xue, Xiangyang and Fu, Yanwei},
+    title     = {Learning Compositional Representation for 4D Captures With Neural ODE},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {5340-5350}
+}
+@inproceedings{NEURIPS2021_pharm,
+ author = {Qian, Zhaozhi and Zame, William and Fleuren, Lucas and Elbers, Paul and van der Schaar, Mihaela},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {11364--11383},
+ publisher = {Curran Associates, Inc.},
+ title = {Integrating Expert ODEs into Neural ODEs: Pharmacology and Disease Progression},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/5ea1649a31336092c05438df996a3e59-Paper.pdf},
+ volume = {34},
+ year = {2021}
+}
+@inproceedings{lutter2019deeplnn,
+  title={Deep {L}agrangian Networks: Using Physics as Model Prior for Deep Learning},
+  author={Lutter, M and Ritter, C and Peters, Jan},
+  booktitle={International Conference on Learning Representations (ICLR 2019)},
+  year={2019},
+  organization={OpenReview. net}
+}
+@article{bacsa2023symplectic_nature,
+  title={Symplectic encoders for physics-constrained variational dynamics inference},
+  author={Bacsa, Kiran and Lai, Zhilu and Liu, Wei and Todd, Michael and Chatzi, Eleni},
+  journal={Scientific Reports},
+  volume={13},
+  number={1},
+  pages={2643},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
+@article{bhattoo2023lnn_graph,
+  title={Learning the dynamics of particle-based systems with {L}agrangian graph neural networks},
+  author={Bhattoo, Ravinder and Ranu, Sayan and Krishnan, NM Anoop},
+  journal={Machine Learning: Science and Technology},
+  volume={4},
+  number={1},
+  pages={015003},
+  year={2023},
+  publisher={IOP Publishing}
+}
+
+@inproceedings{lnn_hnn_contact,
+ author = {Zhong, Yaofeng Desmond and Dey, Biswadip and Chakraborty, Amit},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {21910--21922},
+ publisher = {Curran Associates, Inc.},
+ title = {Extending {L}agrangian and {H}amiltonian Neural Networks with Differentiable Contact Models},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/b7a8486459730bea9569414ef76cf03f-Paper.pdf},
+ volume = {34},
+ year = {2021}
+}
+
+@article{pan2021vehicle_mbd,
+  title={Data-driven vehicle modeling of longitudinal dynamics based on a multibody model and deep neural networks},
+  author={Pan, Yongjun and Nie, Xiaobo and Li, Zhixiong and Gu, Shuitao},
+  journal={Measurement},
+  volume={180},
+  pages={109541},
+  year={2021},
+  publisher={Elsevier}
+}
+@article{TANG2023_MBD_PPINN,
+title = {Application of a parallel physics-informed neural network to solve the multi-body dynamic equations for full-scale train collisions},
+journal = {Applied Soft Computing},
+volume = {142},
+pages = {110328},
+year = {2023},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2023.110328},
+url = {https://www.sciencedirect.com/science/article/pii/S1568494623003460},
+author = {Zhao Tang and Shaodi Dong and Xiaosong Yang and Jianjun Zhang},
+keywords = {Machine learning, Parallel physics-informed neural network, Train collision dynamics},
+abstract = {The prohibitive cost of acquiring data from full-scale train collision experiments limits the applicability of data-driven machine learning methods in train collision simulation. Physics-informed neural networks (PINN) attempt to address this challenge by incorporating physics equations as part of the loss function construction. However, the PINN approach is relatively time-consuming when it comes to solving a large number of physical equations. In this paper, a parallel physics-informed neural network (PPINN) methodology is developed for the solution of multibody dynamics equations to further reduce the computational cost. As well, a PPINN-based framework for engineering applications is proposed, investigating the dynamic responses, absorbed energy, collision forces, and wheel vertical rises of the full-scale train collision. Automatic differentiation and parallelization algorithms are applied to the multi-body dynamic equations including mass, damping, and stiffness matrices, as well as the. The residuals and the initial conditions are included in the loss function. The dynamic responses, absorbed energy, collision forces, and wheel vertical rise of the full-scale train collision are simulated and studied in detail. The results obtained from the PPINN method are in excellent agreement with those obtained from the finite element method (FEM), Newmark-β, and fourth-order Runge–Kutta methods for all four train collision scenarios. Additionally, the PPINN methodology keeps better stability even under large time steps which implies a big potential for computational cost reduction.}
+}
+
+@ARTICLE{2019RNN_railway,
+       author = {{Kraft}, S{\"o}nke and {Causse}, Julien and {Martinez}, Aur{\'e}lie},
+        title = "{Black-box modelling of nonlinear railway vehicle dynamics for track geometry assessment using neural networks}",
+      journal = {Vehicle System Dynamics, International Journal of Vehicle Mechanics and Mobility},
+     keywords = {Railway vehicle dynamics, black-box modelling, neural networks, model validation},
+         year = 2019,
+        month = sep,
+       volume = {57},
+       number = {9},
+        pages = {1241-1270},
+          doi = {10.1080/00423114.2018.1497186},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019VSD....57.1241K},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+@article{bauchau2008review,
+	author = {Bauchau, Olivier A. and Laulusa, André},
+	title = "{Review of Contemporary Approaches for Constraint Enforcement in Multibody Systems}",
+	journal = {Journal of Computational and Nonlinear Dynamics},
+	volume = {3},
+	number = {1},
+	pages = {011005},
+	year = {2007},
+	month = {11},
+	issn = {1555-1415},
+	doi = {10.1115/1.2803258},
+	url = {https://doi.org/10.1115/1.2803258},
+	eprint = {https://asmedigitalcollection.asme.org/computationalnonlinear/article-pdf/3/1/011005/5776226/011005\_1.pdf},
+}
+
+@article{hashemi2023multibody_review,
+  title={Multibody dynamics and control using machine learning},
+  author={Hashemi, Arash and Orzechowski, Grzegorz and Mikkola, Aki and McPhee, John},
+  journal={Multibody System Dynamics},
+  pages={1--35},
+  year={2023},
+  publisher={Springer}
+}
+@article{ding2022pino,
+  title={PINO-MBD: Physics-Informed Neural Operator for Solving Coupled ODEs in Multi-Body Dynamics},
+  author={Ding, Wenhao and He, Qing and Tong, Hanghang and Wang, Ping},
+  journal={arXiv preprint arXiv:2205.12262},
+  year={2022}
+}
+
+@article{hochreiter1997lstm,
+author = {Hochreiter, Sepp and Schmidhuber, J\"{u}rgen},
+title = {Long Short-Term Memory},
+year = {1997},
+issue_date = {November 15, 1997},
+publisher = {MIT Press},
+address = {Cambridge, MA, USA},
+volume = {9},
+number = {8},
+issn = {0899-7667},
+url = {https://doi.org/10.1162/neco.1997.9.8.1735},
+doi = {10.1162/neco.1997.9.8.1735},
+abstract = {Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O. 1. Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.},
+journal = {Neural Comput.},
+month = {nov},
+pages = {1735–1780},
+numpages = {46}
+}
+
+@article{kasim2022constants,
+  title={Constants of motion network},
+  author={Kasim, Muhammad Firmansyah and Lim, Yi Heng},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={25295--25305},
+  year={2022}
+}
+@article{portwood2019turbulence,
+  title={Turbulence forecasting via neural ode},
+  author={Portwood, Gavin D and Mitra, Peetak P and Ribeiro, Mateus Dias and Nguyen, Tan Minh and Nadiga, Balasubramanya T and Saenz, Juan A and Chertkov, Michael and Garg, Animesh and Anandkumar, Anima and Dengel, Andreas and others},
+  journal={arXiv preprint arXiv:1911.05180},
+  year={2019}
+}
+
+@article{chen2022forecasting,
+  title={Forecasting the outcome of spintronic experiments with neural ordinary differential equations},
+  author={Chen, Xing and Araujo, Flavio Abreu and Riou, Mathieu and Torrejon, Jacob and Ravelosona, Dafin{\'e} and Kang, Wang and Zhao, Weisheng and Grollier, Julie and Querlioz, Damien},
+  journal={Nature communications},
+  volume={13},
+  number={1},
+  pages={1016},
+  year={2022},
+  publisher={Nature Publishing Group UK London}
+}
+@inproceedings{quaglino2019snode,
+  title={SNODE: Spectral Discretization of Neural ODEs for System Identification},
+  author={Quaglino, Alessio and Gallieri, Marco and Masci, Jonathan and Koutn{\'\i}k, Jan},
+  booktitle={International Conference on Learning Representations},
+  year={2019}
+}
+@article{Quantum_node,
+  title = {Learning quantum dynamics with latent neural ordinary differential equations},
+  author = {Choi, Matthew and Flam-Shepherd, Daniel and Kyaw, Thi Ha and Aspuru-Guzik, Al\'an},
+  journal = {Phys. Rev. A},
+  volume = {105},
+  issue = {4},
+  pages = {042403},
+  numpages = {10},
+  year = {2022},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.105.042403},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.105.042403}
+}
+@article{chaotic_rnn,
+  title={New results for prediction of chaotic systems using deep recurrent neural networks},
+  author={Serrano-P{\'e}rez, Jos{\'e} de Jes{\'u}s and Fern{\'a}ndez-Anaya, Guillermo and Carrillo-Moreno, Salvador and Yu, Wen},
+  journal={Neural Processing Letters},
+  volume={53},
+  pages={1579--1596},
+  year={2021},
+  publisher={Springer}
+}
+@article{chaotic_rnn2,
+title = {Forecasting of noisy chaotic systems with deep neural networks},
+journal = {Chaos, Solitons \& Fractals},
+volume = {153},
+pages = {111570},
+year = {2021},
+issn = {0960-0779},
+doi = {https://doi.org/10.1016/j.chaos.2021.111570},
+url = {https://www.sciencedirect.com/science/article/pii/S0960077921009243},
+author = {Matteo Sangiorgio and Fabio Dercole and Giorgio Guariso},
+keywords = {Recurrent neural networks, LSTM cell, Teacher forcing, Multi-step prediction, Deterministic chaos, Non-stationary processes},
+abstract = {Recurrent neural networks have recently proved the state-of-the-art approach in forecasting complex oscillatory time series on a multi-step horizon. Researchers in the field investigated different machine learning techniques and training approaches on dynamical systems with different degrees of complexity. Still, these analyses are usually limited to noise-free chaotic time series. This paper extends the analysis from a deterministic to a noisy environment, by considering both observation and structural noise. Observation noise is evaluated by adding different levels of artificially-generated random values on deterministic processes obtained from the simulation of four archetypal chaotic systems. A case of structural noise is implemented through a time-varying version of the logistic map, which exhibits a slow structural change of the system’s dynamic that makes the system non-stationary. Finally, a time series of ozone concentration in Northern Italy is considered to test the theoretical findings on a real-world case study in which both forms of noise play a significant role. Recurrent neural networks formed by LSTM cells are compared with two benchmark feed-forward architectures. LSTM trained without the standard teacher forcing approach, i.e., with training that replicates the setting used in inference mode, proved to have the best performance in compensating the stochasticity generated by the observation noise and reproducing the structural non-stationarity of the process.}
+}
+@article{chaotic_rnn3,
+  title = {Model scale versus domain knowledge in statistical forecasting of chaotic systems},
+  author = {Gilpin, William},
+  journal = {Phys. Rev. Res.},
+  volume = {5},
+  issue = {4},
+  pages = {043252},
+  numpages = {18},
+  year = {2023},
+  month = {Dec},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.5.043252},
+  url = {https://link.aps.org/doi/10.1103/PhysRevResearch.5.043252}
+}
+@article{FCNN_iid,
+title = {Generalization in fully-connected neural networks for time series forecasting},
+journal = {Journal of Computational Science},
+volume = {36},
+pages = {101020},
+year = {2019},
+issn = {1877-7503},
+doi = {https://doi.org/10.1016/j.jocs.2019.07.007},
+url = {https://www.sciencedirect.com/science/article/pii/S1877750319301838},
+author = {Anastasia Borovykh and Cornelis W. Oosterlee and Sander M. Bohté},
+keywords = {Neural networks, Deep learning, Generalization, Time series, Forecasting},
+abstract = {In this paper we study the generalization capabilities of fully-connected neural networks trained in the context of time series forecasting. Time series do not satisfy the typical assumption in statistical learning theory of the data being i.i.d. samples from some data-generating distribution. We use the input and weight Hessians, that is the smoothness of the learned function with respect to the input and the width of the minimum in weight space, to quantify a network's ability to generalize to unseen data. While such generalization metrics have been studied extensively in the i.i.d. setting of for example image recognition, here we empirically validate their use in the task of time series forecasting. Furthermore we discuss how one can control the generalization capability of the network by means of the training process using the learning rate, batch size and the number of training iterations as controls. Using these hyperparameters one can efficiently control the complexity of the output function without imposing explicit constraints.}
+}
+@article{hNODE,
+   title={Neural modal ordinary differential equations: Integrating physics-based modeling with neural ordinary differential equations for modeling high-dimensional monitored structures},
+   volume={3},
+   ISSN={2632-6736},
+   url={http://dx.doi.org/10.1017/dce.2022.35},
+   DOI={10.1017/dce.2022.35},
+   journal={Data-Centric Engineering},
+   publisher={Cambridge University Press (CUP)},
+   author={Lai, Zhilu and Liu, Wei and Jian, Xudong and Bacsa, Kiran and Sun, Limin and Chatzi, Eleni},
+   year={2022} }
+
+@article{node_general1,
+  title={Enhancing the inductive biases of graph neural ode for modeling dynamical systems},
+  author={Bishnoi, Suresh and Bhattoo, Ravinder and Ranu, Sayan and Krishnan, NM},
+  journal={arXiv preprint arXiv:2209.10740},
+  year={2022}
+}
+
+@InProceedings{node_general2,
+  title = 	 {Approximation Capabilities of Neural {ODE}s and Invertible Residual Networks},
+  author =       {Zhang, Han and Gao, Xi and Unterman, Jacob and Arodz, Tom},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {11086--11095},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/zhang20h/zhang20h.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/zhang20h.html},
+  abstract = 	 {Recent interest in invertible models and normalizing flows has resulted in new architectures that ensure invertibility of the network model. Neural ODEs and i-ResNets are two recent techniques for constructing models that are invertible, but it is unclear if they can be used to approximate any continuous invertible mapping. Here, we show that out of the box, both of these architectures are limited in their approximation capabilities. We then show how to overcome this limitation: we prove that any homeomorphism on a $p$-dimensional Euclidean space can be approximated by a Neural ODE or an i-ResNet operating on a $2p$-dimensional Euclidean space. We conclude by showing that capping a Neural ODE or an i-ResNet with a single linear layer is sufficient to turn the model into a universal approximator for non-invertible continuous functions.}
+}
+
+@article{node_general3,
+  title={Deconstructing the inductive biases of {H}amiltonian neural networks},
+  author={Gruver, Nate and Finzi, Marc and Stanton, Samuel and Wilson, Andrew Gordon},
+  journal={arXiv preprint arXiv:2202.04836},
+  year={2022}
+}
+
+
+@InProceedings{node_convergence,
+  title = 	 {How to Train Your Neural {ODE}: the World of {J}acobian and Kinetic Regularization},
+  author =       {Finlay, Chris and Jacobsen, Joern-Henrik and Nurbekyan, Levon and Oberman, Adam},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  pages = 	 {3154--3164},
+  year = 	 {2020},
+  editor = 	 {III, Hal Daumé and Singh, Aarti},
+  volume = 	 {119},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--18 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v119/finlay20a/finlay20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v119/finlay20a.html},
+  abstract = 	 {Training neural ODEs on large datasets has not been tractable due to the necessity of allowing the adaptive numerical ODE solver to refine its step size to very small values. In practice this leads to dynamics equivalent to many hundreds or even thousands of layers. In this paper, we overcome this apparent difficulty by introducing a theoretically-grounded combination of both optimal transport and stability regularizations which encourage neural ODEs to prefer simpler dynamics out of all the dynamics that solve a problem well. Simpler dynamics lead to faster convergence and to fewer discretizations of the solver, considerably decreasing wall-clock time without loss in performance. Our approach allows us to train neural ODE-based generative models to the same performance as the unregularized dynamics, with significant reductions in training time. This brings neural ODEs closer to practical relevance in large-scale applications.}
+}
+
+@inproceedings{node_robust,
+  title={On the verification of neural odes with stochastic guarantees},
+  author={Grunbacher, Sophie and Hasani, Ramin and Lechner, Mathias and Cyranka, Jacek and Smolka, Scott A and Grosu, Radu},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={35},
+  number={13},
+  pages={11525--11535},
+  year={2021}
+}
+@article{kouvaritakis2016MPC,
+  title={Model predictive control},
+  author={Kouvaritakis, Basil and Cannon, Mark},
+  journal={Switzerland: Springer International Publishing},
+  volume={38},
+  pages={13--56},
+  year={2016},
+  publisher={Springer}
+}
